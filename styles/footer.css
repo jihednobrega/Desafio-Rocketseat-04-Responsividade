@@ -1,0 +1,29 @@
+footer {
+  padding-block: 1rem;
+  text-align: center;
+
+  & span:nth-child(1) {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  & span:nth-child(3) {
+    margin-left: 1rem;
+  }
+}
+
+@media (width >= 80em) {
+  footer {
+    padding-block: 1.5rem;
+    display: flex;
+    gap: 1.5rem;
+
+    & span {
+      cursor: pointer;
+    }
+    
+    & span:nth-child(1) {
+      margin-right: auto;
+    }
+  }
+}
