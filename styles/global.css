@@ -22,6 +22,10 @@
   --text-sm: 0.75rem/170% var(--font-family);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font: var(--text);
   color: var(--text-color-secondary);

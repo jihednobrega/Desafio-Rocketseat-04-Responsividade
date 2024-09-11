@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-block: 1.5rem;
+
+  & img {
+    width: 20.5rem;
+    height: 20.5rem;
+    object-fit: cover;
+  }
+}
+
+@media (width >= 80em) {
+  main {
+    & img {
+      width: 17.875rem;
+      height: 17.875rem;
+    }
+  }
+}
