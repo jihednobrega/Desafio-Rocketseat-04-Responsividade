@@ -11,7 +11,7 @@ nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 1rem;
 
   padding-block: 0.5rem;
 }
@@ -26,5 +26,9 @@ nav ul li:last-child img {
 @media (width >= 80em) {
   nav {
     padding-block: 1.25rem;
+  }
+
+  nav ul {
+    gap: 1.5rem;
   }
 }
